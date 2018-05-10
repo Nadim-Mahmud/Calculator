@@ -1,1 +1,1 @@
-It is a simple calculator to do sinple calculatio
+It is a simple calculator to do sinple calculation
