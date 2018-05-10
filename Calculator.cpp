@@ -1,5 +1,12 @@
 #include<iostream>
 
+int division(int a,int b){
+    return a/b;
+}
+
+void print(int n){
+    std::cout<<n<<endl;
+}
 
 int main(){
     int i,j,k,n,m,a,b;
@@ -13,6 +20,7 @@ int main(){
     else if(n==3){
     }
     else{
+        print(division(a,b));
     }
     return 0;
 }
