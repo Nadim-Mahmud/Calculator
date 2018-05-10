@@ -11,7 +11,7 @@ int division(int a,int b){
     return a/b;
 }
 void print(int n){
-    std::cout<<n<<endl;
+    std::cout<<n<<"\n";
 }
 int main(){
     int i,j,k,n,m,a,b;
