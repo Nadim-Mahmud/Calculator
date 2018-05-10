@@ -3,15 +3,16 @@
 int multiplies(int a, int b){
     return a*b;
 }
-
+int substract(int a,int b)
+{
+    return a-b;
+}
 int division(int a,int b){
     return a/b;
 }
-
 void print(int n){
     std::cout<<n<<endl;
 }
-
 int main(){
     int i,j,k,n,m,a,b;
     std::cout<<"Enter:\n- 1 for sum\n- 2 for subtraction\n- 3 for multiplication \- 4 for division\n";
