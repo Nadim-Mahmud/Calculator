@@ -1,5 +1,8 @@
 #include<iostream>
 
+int add(int a, int b){
+    return a+b;
+}
 int multiplies(int a, int b){
     return a*b;
 }
