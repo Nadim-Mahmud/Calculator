@@ -22,8 +22,10 @@ int main(){
     std::cin>>n;
     std::cin>>a>>b;
     if(n==1){
+        print(add(a,b));
     }
     else if(n==2){
+        print(substract(a,b));
     }
     else if(n==3){
         print(multiplies(a,b));
