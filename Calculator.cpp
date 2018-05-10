@@ -11,7 +11,7 @@ int division(int a,int b){
     return a/b;
 }
 void print(int n){
-    std::cout<<n<<endl;
+    std::cout<<n<<"\n";
 }
 int main(){
     int i,j,k,n,m,a,b;
@@ -23,6 +23,7 @@ int main(){
     else if(n==2){
     }
     else if(n==3){
+        print(multiplies(a,b));
     }
     else{
         print(division(a,b));
