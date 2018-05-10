@@ -1,6 +1,9 @@
 #include<iostream>
 
-
+int substract(int a,int b)
+{
+    return a-b;
+}
 int main(){
     int i,j,k,n,m;
     std::cout<<"Enter:\n-1 for sum\n-2 for subtracttion\n";
